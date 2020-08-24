@@ -9,6 +9,7 @@ public class ConfigurationReader {
     static {
         try {
             //location of properties file
+            //C:\Users\1\Desktop\bugbusters
             String path = System.getProperty("user.dir")+"/configuration.properties";
             //get that file as a stream
             FileInputStream input = new FileInputStream(path);
