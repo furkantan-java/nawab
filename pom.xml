@@ -35,7 +35,7 @@
                     <useUnlimitedThreads>true</useUnlimitedThreads>
                     <includes>
                         <!-- for  run class or classes-->
-                        <include>**/RegressionRunner*.java</include>
+                        <include>**/Runner*.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
